@@ -35,7 +35,10 @@
 
           <nav class="nav-list">
             <menu class="menu-nav">
-              <li><a href="">Agencja</a></li>
+              <li>
+                <a href="">Agencja</a>
+                <div class="underscore"></div>
+              </li>
               <li><a href="./portfolio.html">Portfolio</a></li>
               <li><a href="">Kontakt</a></li>
             </menu>
@@ -63,7 +66,9 @@
         <div class="top">
           <h1 class="header-top">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <div class="buttomm">
-            <button class="button-main" type="button">Zamów usługe</button>
+            <button class="button-main" type="button" data-modal-open>
+              Zamów usługe
+            </button>
           </div>
         </div>
       </div>
@@ -464,5 +469,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close=""></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
