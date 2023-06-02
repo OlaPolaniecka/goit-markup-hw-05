@@ -210,14 +210,20 @@ a {
   border-radius: 4px;
 }
 
-.button-options:hover {
-  background: #2196f3;
-  color: #ffffff;
-}
-
 .button-options:focus {
   background: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-options:hover {
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .figcaption-name {
@@ -564,8 +570,6 @@ header {
 .img-animation {
   position: relative;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
 }
 
 .section-technocrack:hover .technocrack-overlay {
@@ -623,7 +627,7 @@ header {
 .is-hidden {
   visibility: hidden;
   opacity: 0;
-  transform: rotate(45deg);
+  transform: rotate(120deg);
   pointer-events: none;
 }
 
@@ -643,11 +647,12 @@ header {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   width: 528px;
   height: 581px;
   cursor: auto;
-  margin-top: 221px;
-  margin-left: 536px;
-  margin-right: 536px;
-  margin-bottom: 222px;
+  margin: auto;
+  bottom: 221px;
+  left: 536px;
+  top: 221px;
 }
