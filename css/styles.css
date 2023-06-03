@@ -197,6 +197,8 @@
 
 .menu-nav a:hover {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a {
@@ -336,6 +338,8 @@ menu {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+
+/* FOOTER SECTION */
 
 .footer-address {
   padding-top: 60px;
