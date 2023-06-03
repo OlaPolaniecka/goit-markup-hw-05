@@ -22,6 +22,8 @@
 
 .contact:hover {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .envelope-icon {
@@ -170,6 +172,8 @@
 
 .address-footer a:hover {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-nav a {
@@ -408,11 +412,6 @@ header {
   margin: 12px;
 }
 
-.social-icon-color:hover,
-.social-icon-color:focus {
-  fill: #ffffff;
-}
-
 .icon-social {
   width: 44px;
   height: 44px;
@@ -422,10 +421,14 @@ header {
 .icon-social:hover,
 .icon-social:focus {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social:hover .social-icon-color {
   fill: #ffffff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-our-clients {
@@ -471,6 +474,8 @@ header {
 
 .icon-logo-item:hover .icon-logo-color {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-footer {
@@ -518,6 +523,8 @@ header {
 
 .icon-group-footer:hover {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-background {
@@ -562,6 +569,7 @@ header {
   width: 370px;
   height: 294px;
   background-color: #2196f3e6;
+  bottom: 0;
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
